@@ -10,73 +10,98 @@
       line-height: 1.6;
       margin: 0;
       padding: 0;
-      background: #88BDF6;
-      color: #A0BCFF;
+      /* sehr heller, leicht bläulicher Hintergrund */
+      background: #F4F6FF;
+      color: #222;
     }
+
     .page {
       max-width: 900px;
       margin: 0 auto;
       padding: 2rem 1.25rem 3rem;
       background: #ffffff;
     }
+
     header {
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid #D6DCF5;
       margin-bottom: 1.5rem;
       padding-bottom: 1rem;
     }
+
+    /* Hauptüberschrift – kräftiges Indigoblau */
     h1 {
       font-size: 1.9rem;
       margin: 0 0 0.25rem;
-      color: #1E35B3;
+      color: #242C8A;
     }
+
+    /* Abschnittsüberschriften – etwas heller als h1 */
     h2 {
       font-size: 1.25rem;
       margin-top: 1.75rem;
       margin-bottom: 0.75rem;
-      color: #0A113B;
+      color: #313BA5;
     }
+
+    /* Unterüberschriften – noch etwas freundlicher/heller */
     h3 {
       font-size: 1.05rem;
       margin-top: 1.2rem;
       margin-bottom: 0.3rem;
-      color: #0A113B;
+      color: #3E49B8;
     }
+
     p {
       margin: 0.3rem 0 0.8rem;
     }
+
     ul, ol {
       margin: 0.2rem 0 0.8rem 1.2rem;
       padding-left: 1rem;
     }
+
     .tagline {
       font-size: 0.95rem;
-      color: #aaa;
-    }  
-   .highlight-box {
-    border-left: 4px solid #555;
-    background: rgba(121,124,148,0.3);
-    padding: 0.75rem 1rem;
-    margin: 1rem 0 1.5rem;
-    font-size: 0.95rem;
+      color: #4C57A8; /* dezentes, ruhiges Blau */
     }
+
+    /* Highlight-Box mit leicht transparent wirkendem Blauton */
+    .highlight-box {
+      border-left: 4px solid #242C8A;
+      background: rgba(36, 44, 138, 0.06); /* sehr zarter Blauschleier */
+      padding: 0.75rem 1rem;
+      margin: 1rem 0 1.5rem;
+      font-size: 0.95rem;
+    }
+
     .small {
       font-size: 0.9rem;
       color: #555;
     }
+
+    /* Kontaktbox: kräftiges Blau mit weißer Schrift */
     .contact-placeholder {
-      border: 1px dashed #bbb;
+      border: 1px dashed #242C8A;
       padding: 0.75rem 1rem;
       margin-top: 0.5rem;
       font-size: 0.95rem;
-      background: #6677B3;
+      background: #242C8A;
+      color: #ffffff;
     }
-        }
+
+    .contact-placeholder strong,
+    .contact-placeholder li {
+      color: #ffffff;
+    }
+
+    /* FAQ-Box: nur Umrandung, kein Hintergrund */
     .faq-placeholder {
-      border: 1px dashed #bbb;
+      border: 1px dashed #242C8A;
+      border-radius: 4px;
       padding: 0.75rem 1rem;
       margin-top: 0.5rem;
       font-size: 0.95rem;
-      background: #84868A;
+      background: transparent;
     }
   </style>
 </head>
@@ -84,7 +109,7 @@
   <div class="page">
     <header>
       <h1>Praxisprojekt für Masterarbeit (Otoplastik im Hundeohr)</h1>
-      <p class="tagline">Hörgeräteentwicklung für Hunde – Informationsseite zur Teilnahme am Paxisprojekt</p>
+      <p class="tagline">Hörgeräteentwicklung für Hunde – Informationsseite zur Teilnahme am Praxisprojekt</p>
     </header>
 
     <section>
@@ -163,20 +188,20 @@
     <section>
       <h2>FAQ – Häufige Fragen</h2>
       <div class="faq-placeholder">
-      <h3>Ist das schmerzhaft für meinen Hund?</h3>
-      <p>Nein. Die Otoplastiken bestehen aus weichem, hautverträglichem Silikon und können jederzeit entfernt werden.</p>
+        <h3>Ist das schmerzhaft für meinen Hund?</h3>
+        <p>Nein. Die Otoplastiken bestehen aus weichem, hautverträglichem Silikon und können jederzeit entfernt werden.</p>
 
-      <h3>Welche Risiken gibt es?</h3>
-      <p>Gelegentliches Kratzen oder Schütteln ist möglich und Teil der Beobachtung. Ein Abbruch ist jederzeit möglich, wenn du dich unwohl fühlst oder Bedenken hast, dass es deine Fellnase zu sehr belastet.</p>
+        <h3>Welche Risiken gibt es?</h3>
+        <p>Gelegentliches Kratzen oder Schütteln ist möglich und Teil der Beobachtung. Ein Abbruch ist jederzeit möglich, wenn du dich unwohl fühlst oder Bedenken hast, dass es deine Fellnase zu sehr belastet.</p>
 
-      <h3>Muss mein Hund hörgeschädigt sein?</h3>
-      <p>Nein, die Studie ist für alle Hunde geeignet.</p>
+        <h3>Muss mein Hund hörgeschädigt sein?</h3>
+        <p>Nein, die Studie ist für alle Hunde geeignet.</p>
 
-      <h3>Wie lange geht die Beobachtungs/Trainingsphase?</h3>
-      <p>3–4 Wochen für ausgewachsene Hunde; 2–3 Monate für Welpen.</p>
+        <h3>Wie lange geht die Beobachtungs/Trainingsphase?</h3>
+        <p>3–4 Wochen für ausgewachsene Hunde; 2–3 Monate für Welpen.</p>
 
-      <h3>Datenverwendung?</h3>
-      <p>Alle Daten werden anonym für die Masterarbeit genutzt.</p>  
+        <h3>Datenverwendung?</h3>
+        <p>Alle Daten werden anonym für die Masterarbeit genutzt.</p>
       </div>
     </section>
 
@@ -192,11 +217,11 @@
     <section>
       <h2>Kontakt</h2>
       <div class="contact-placeholder">
-      <ul>
-       <li><strong>Sinia Porger</strong><br></li> 
-        <li>Mail: sinia.porger@stud.hawk.de</li>
-        <li>Mobil: 01794102258</li>
-      </ul>  
+        <ul>
+          <li><strong>Sinia Porger</strong></li>
+          <li>Mail: sinia.porger@stud.hawk.de</li>
+          <li>Mobil: 0179 4102258</li>
+        </ul>
       </div>
     </section>
   </div>
